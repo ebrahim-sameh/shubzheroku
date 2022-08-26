@@ -1,1 +1,1 @@
-web: gunicorn shubz.wsgi
+web: gunicorn shubzheroku.wsgi
