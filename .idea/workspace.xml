@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ce0ec7-6817-4c0b-8f46-9f96f700a658" name="Changes" comment="stngs">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/hero.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intropage/static/js/popper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intropage/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/intropage/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intropage/static/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/intropage/static/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intropage/templates/intropage/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/intropage/templates/intropage/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intropage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/intropage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intropage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/intropage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shubz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shubz/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Blu-Ray/PycharmProjects/shubz/venv&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Blu-Ray/Desktop/shubzheroku/intropage/static",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Blu-Ray\Desktop\shubzheroku\intropage\static" />
+      <recent name="C:\Users\Blu-Ray\Desktop\shubzheroku\intropage\static\js" />
+      <recent name="C:\Users\Blu-Ray\Desktop\shubzheroku" />
+      <recent name="C:\Users\Blu-Ray\Desktop\shubzheroku\audio-master\build\audio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Blu-Ray\Desktop\shubzheroku\intropage\static\css" />
+      <recent name="C:\Users\Blu-Ray\Desktop\shubzheroku\intropage\static" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661527076257</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="stngs">
+      <created>1661527103637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661527103637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

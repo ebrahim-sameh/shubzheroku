@@ -1,6 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,41 +16,84 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 	<link rel="stylesheet" href=
 	"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"> -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'style.css' %}">
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+	<script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body class="is-boxed has-animations">
+<body class="is-boxed has-animations" style="height: 100%;background: #201f20;font-family: 'Secular One', sans-serif;">
+<style>
+		p{
+			color: #8A94A7;
+		}
+	</style>
     <div class="body-wrap">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-							<a href="#">
-								<img class="header-logo-image" src="{% static 'logo.png' %}" style="
-								max-width: 250px;
-							" alt="Logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </header>
+<!--        <header class="site-header">-->
+<!--            <div class="container">-->
+<!--                <div class="site-header-inner">-->
+<!--                    <div class="brand header-brand">-->
+<!--                        <h1 class="m-0">-->
+<!--							<a href="#">-->
+<!--								<img class="header-logo-image" src="{% static 'logo.png' %}" style="-->
+<!--								max-width: 250px;-->
+<!--							" alt="Logo">-->
+<!--                            </a>-->
+<!--                        </h1>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </header>-->
 
         <main>
-            <section class="hero">
-                <div class="container">
+<!--            <section class="hero">-->
+<!--                <div class="container">-->
+<!--                    <div class="hero-inner">-->
+<!--						<div class="hero-copy">-->
+<!--	                        <h1 class="hero-title mt-0">AFRICA URBAN CREATIVE DIGITAL MEDIA</h1>-->
+<!--	                        <p class="hero-paragraph">We Produce & Sell Anything Audio, Image and Video used to promote sales, educate and entertain your audience worldwide.</p>-->
+<!--	                        <div class="hero-cta"><a class="button button-primary" style="-->
+<!--								background: #097dea;-->
+<!--							" href="#">Let’s Partner</a></div>-->
+<!--						</div>-->
+<!--						<div class="hero-figure anime-element">-->
+<!--							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">-->
+<!--								<rect width="528" height="396" style="fill:transparent;" />-->
+<!--							</svg>-->
+<!--							<div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>-->
+<!--							<div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>-->
+<!--							<div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>-->
+<!--							<div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>-->
+<!--							<div class="hero-figure-box hero-figure-box-05"></div>-->
+<!--							<div class="hero-figure-box hero-figure-box-06"></div>-->
+<!--							<div class="hero-figure-box hero-figure-box-07"></div>-->
+<!--							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>-->
+<!--							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>-->
+<!--							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>-->
+<!--						</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </section>-->
+  <div class="container">
+					<a href="#">
+						<img class="header-logo-image mt-2" src="{%static 'image33.png' %}" style="
+						max-width: 80px;
+					" alt="Logo">
+					</a>
                     <div class="hero-inner">
+
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">AFRICA URBAN CREATIVE DIGITAL MEDIA</h1>
-	                        <p class="hero-paragraph">We Produce & Sell Anything Audio, Image and Video used to promote sales, educate and entertain your audience worldwide.</p>
+
+	                        <h1 class="hero-title mt-0" style="font-size: xxx-large;">AFRICA URBAN CREATIVE DIGITAL MEDIA</h1>
+	                        <p class="hero-paragraph mb-4">We Produce & Sell Anything Audio, Image and Video used to promote sales, educate and entertain your audience worldwide.</p>
 	                        <div class="hero-cta"><a class="button button-primary" style="
 								background: #097dea;
 							" href="#">Let’s Partner</a></div>
 						</div>
 						<div class="hero-figure anime-element">
-							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
-								<rect width="528" height="396" style="fill:transparent;" />
-							</svg>
-							<div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
+							<!-- <div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
 							<div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
 							<div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
 							<div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
@@ -58,67 +102,74 @@
 							<div class="hero-figure-box hero-figure-box-07"></div>
 							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
 							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
-							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
+							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div> -->
+							<!-- <video style="width: 100%;" autoplay  loop><source src="movie.mp4" type="video/mp4"></video> -->
+							<img src="{% static 'hero.gif' %}" >
 						</div>
                     </div>
                 </div>
-            </section>
-
             <section class="features section">
                 <div class="container">
-					<h2 class="section-title mt-5 pricing-header text-center"> HOW TO DO BUSINESS WITH US</h2>
+					<h2 class="section-title mt-5 pricing-header text-center" style="margin-top: 8%;"></i> HOW TO DO BUSINESS WITH US</h2>
 					<p class="section-paragraph mb-0 text-center">EVERYTHING YOU NEED TO GET CREATIVE DIGITAL MEDIA PROJECTS DONE.</p>
-						<p class="section-paragraph mb-0 text-center"style="
-						color: #25559c;
-						font-weight: bolder;
-					"><BR>CLICK ON ANY OF OUR STATE OF THE ART PROFESSIONAL STUDIOS</p>
+						<p class="section-paragraph mb-0 text-center"style="background: #4B0082;
+						background: linear-gradient(to right, #4B0082 0%, #DDA0DD 100%);
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+
+						"><BR>CLICK ON ANY OF OUR STATE OF THE ART PROFESSIONAL STUDIOS</p>
 					<div class="features-inner section-inner has-bottom-divider">
                         <div class="features-wrap">
-							<a href="#">
+
+							<a href="/studio#/audio-page">
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
-
                                     <div class="feature-icon">
-										<img src="{% static 'audio.png' %}" style="
+										<img src="{% static 'image55.png'%}" style="
 										max-width: 120px;
 									" alt="Feature 01">
                                     </div>
 								</a>
 
-                                    <h4 class="feature-title mt-24">Audio Studio</h4>
                                 </div>
                             </div>
+
+                            <a href="/studio#/photography-page">
                             <div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="{% static 'photo.png' %}" style="
+										<img src="{% static 'image11.png'%}" style="
 										max-width: 120px;
 									" alt="Feature 02">
                                     </div>
-                                    <h4 class="feature-title mt-24">Photography Studio</h4>
                                 </div>
                             </div>
+                            </a>
+                                    <a href="#">
 
 							<div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="{% static 'tv.png' %}" style="
-										max-width: 90px;
+										<img src="{% static 'image44.png'%}" style="
+										max-width: 120px;
 									" alt="Feature 02">
                                     </div>
-                                    <h4 class="feature-title mt-24"> TV and Films</h4>
                                 </div>
                             </div>
+                                    </a>
+                    <a href="#">
 							<div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img src="{% static 'africa.png' %}" style="
-										max-width: 60px;
+										<img src="{% static 'image6.png' %}" style="
+										max-width: 120px;
 									" alt="Feature 02">
                                     </div>
+                    </a>
+<!--
                                     <h4 class="feature-title mt-24">Africa Creative
-										Digital Media | Talent
-										<br> Agency</h4>
+										<span class="glow"> Media | Talent</span>
+										<br> Agency</h4> -->
                                 </div>
                             </div>
                                       </section>
@@ -128,57 +179,97 @@
 											<p class="section-paragraph mb-0 text-center">WE DON’T JUST DESIGN & PRODUCE QUALITY CREATIVE DIGITAL MEDIA PROJECTS OR COLLECTIONS IN SOUNDS, IMAGES AND VIDEOS BUT ALSO DISTRIBUTE TO ALL DIGITAL MEDIA DISTRIBUTION STORES WORLDWIDE.
 												<br>Sell your Digital Media Assets to all major stock and streaming stores globally like envato, Spotify, Amazon, YouTube, Apple etc.</p>
 
+
             <section class="pricing section">
                 <div class="container-sm">
+
                     <div class="pricing-inner section-inner">
                         <div class="pricing-header text-center">
+							<p class=" mb-0" style="
+							color: #25559c;">
+							<span style="color: white;">whether you’re interested in </span> <br>
+							 LOGO DESIGNS - PRODUCT DESIGNS COMMERCIALS - TV TALKSHOWS, WEDDINGS - CORPORATE EVENTS, DOCUMENTARIES - MOVIES, MUSIC PRODUCTION - PODCASTS, MUSIC VIDEOS - Etc.</div>
+
+
                             <h2 class="section-title mt-0"></h2>
-                            <p class="section-paragraph mb-0" style="
-							color: #25559c;
-						">Whether you’re interested from LOGO DESIGNS - PRODUCT DESIGNS COMMERCIALS - TV TALKSHOWS, WEDDINGS - CORPORATE EVENTS, DOCUMENTARIES - MOVIES, MUSIC PRODUCTION - PODCASTS, MUSIC VIDEOS - Etc.							</div>
-						<div class="pricing-tables-wrap">
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner is-revealing">
-                                    <div class="pricing-table-main">
 
-										<div class="pricing-table-features-title text-xs pt-24 pb-24"style="
-										font-size: x-large;
-									">WHO WE WORK FOR</div>
-                                        <ul class="pricing-table-features list-reset text-xs" >
-                                            <li style="
-											justify-content: center;
-										">
-                                                <span><img src="{% static 'comp1.png' %}"style="
-													max-width: 70px;
-												" /> </span><span> &nbsp; Facebook Company</span>
-                                            </li>
-                                            <li style="
-											justify-content: center;
-										">
-                                                <span><img src="{% static 'comp2.png' %}"style="
-													max-width: 70px;
-												" /></span> <span> &nbsp; Twitter Company</span>
-                                            </li>
-                                            <li style="
-											justify-content: center;
-										">
-                                                <span><img src="{% static 'comp3.png' %}"style="
-													max-width: 70px;
-												" /></span><span> &nbsp; Instagram Company</span>
-                                            </li>
-											<li style="
-											justify-content: center;
-										">
-                                                <span><img src="{% static 'comp4.png' %}"style="
-													max-width: 70px;
-												" /></span><span> &nbsp; Linkedin Company</span>
-											</li>
-                                        </ul>
-                                    </div>
 
-                                </div>
-                            </div>
-                        </div>
+						<div class="container text-center my-3">
+							<h2 class="font-weight-light">WHO WE WORK FOR
+							</h2>
+							<div class="row mx-auto my-auto justify-content-center">
+								<div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+									<div class="carousel-inner" role="listbox">
+										<div class="carousel-item active">
+											<div class="col-md-3">
+
+												<div class="card">
+													<div class="card-img">
+														<img src="{% static 'comp2.png' %}"style="
+												" />                                 </div>
+												</div>
+											</div>
+
+										</div>
+
+										<div class="carousel-item">
+											<div class="col-md-3">
+												<div class="card">
+													<div class="card-img">
+														<img src="{% static 'comp2.png' %}"style="
+												" />                     </div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="col-md-3">
+												<div class="card">
+													<div class="card-img">
+														<img src="{% static 'comp2.png' %}"style="
+													" />                        </div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item" style="">
+											<div class="col-md-3">
+												<div class="card">
+													<div class="card-img">
+														<img src="{% static 'comp2.png' %}"style="
+													" />                           </div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="col-md-3">
+												<div class="card">
+													<div class="card-img">
+														<img src="{% static 'comp2.png' %}" style="
+
+														" alt="Feature 02">                               </div>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="col-md-3">
+												<div class="card">
+													<div class="card-img">
+														<img src="{% static 'comp2.png' %}" style="
+														" alt="Feature 02">                               </div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									</a>
+									<a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									</a>
+								</div>
+							</div>
+						  </div>
+
+
                     </div>
                 </div>
             </section>
@@ -189,7 +280,7 @@
 						<h3 class="section-title mb-1 mt-0" style="
 						margin-bottom: 20px;
 					">Download <span style="
-					color: #2c5a74;
+					color: #8A4FFF;
 					font-size: xxx-large;
 					/* margin-bottom: 15px; */
 				">Creative </span>Digital Media Assets ?</h3>
@@ -224,70 +315,265 @@
 			</section>
 
 
-            <section class="features section">
-                <div class="container">
-					<h2 class="section-title mt-1 pricing-header text-center">MEET OUR TEAM</h2>
-					<div class="features-inner section-inner has-bottom-divider" style="
-					padding-top: 5px;
-				">
-                        <div class="features-wrap">
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner" >
+			<section id="team">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+							<div class="sec-heading text-center">
+			    <h2 class="font-weight-light" style="
+				MARGIN-TOP: 50PX;
+			">MEET OUR TEAM	</h2>
+<p><span style="
+	color: #8A4FFF;
+	font-size: x-large;
+	font-weight: unset;
+">Filmmaking </span>our passion.<span style="
+	color: #8A4FFF;
+	font-size: x-large;
+	font-weight: unset;
+"> Artistry</span> is our goal</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="testimonial-box">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="team-slider owl-carousel">
+									<div class="single-box text-center">
+										<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/65VQDfjs/1.png"></div>
+										<div class="info-area">
+											<h4>Person's Name</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p>
+											<ul class="footer-social-links list-reset"style="
+											color: cornflowerblue;
+											align-items: center;
+											justify-content: center;
+											text-align: center;
+										">
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Facebook</span>
+														<i class="bi bi-facebook"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Twitter</span>
+														<i class="bi bi-twitter"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Linkedin</span>
+														<i class="bi bi-linkedin"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Instagram</span>
+														<i class="bi bi-instagram"></i>                            </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="single-box text-center">
+										<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/vmCM14qL/2.png"></div>
+										<div class="info-area">
+											<h4>Person's Name</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p>
+											<ul class="footer-social-links list-reset"style="
+											align-items: center;
+											justify-content: center;
+											text-align: center;
+											color: cornflowerblue;
 
-                                    <div class="feature-icon">
-										<img src="{% static 'team.jpg' %}" style="
-										max-width: 120px;
-									" alt="Feature 01">
-                                    </div>
-                                    <h4 class="feature-title mt-24">JOHN DUO</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh.</p>
-                                </div>
-                            </div>
-							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="{% static 'team1.jpg' %}" style="
-										max-width: 120px;
-									" alt="Feature 02">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Jane doo</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh.</p>
-                                </div>
-                            </div>
-							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="{% static 'team2.jpg' %}" style="
-										max-width: 120px;
-									" alt="Feature 02">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Jane doo</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh.</p>
-                                </div>
-                            </div>
-							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="{% static 'team3.jpg' %}" style="
-										max-width: 120px;
-									" alt="Feature 02">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Jane doo</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh.</p>
-                                </div>
-                            </div>
-							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="{% static 'team4.jpg' %}" style="
-										max-width: 120px;
-									" alt="Feature 02">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Jane doo</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh.</p>
-                                </div>
-                            </div>
-                                      </section>
+										">
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Facebook</span>
+														<i class="bi bi-facebook"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Twitter</span>
+														<i class="bi bi-twitter"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Linkedin</span>
+														<i class="bi bi-linkedin"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Instagram</span>
+														<i class="bi bi-instagram"></i>                            </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="single-box text-center">
+										<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/TYTxWM9S/3.png"></div>
+										<div class="info-area">
+											<h4>Person's Name</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p>
+											<ul class="footer-social-links list-reset"style="
+											align-items: center;
+											justify-content: center;
+											text-align: center;
+											color: cornflowerblue;
+
+										">
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Facebook</span>
+														<i class="bi bi-facebook"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Twitter</span>
+														<i class="bi bi-twitter"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Linkedin</span>
+														<i class="bi bi-linkedin"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Instagram</span>
+														<i class="bi bi-instagram"></i>                            </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="single-box text-center">
+										<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/593GTHB7/4.png"></div>
+										<div class="info-area">
+											<h4>Person's Name</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p>
+											<ul class="footer-social-links list-reset"style="
+											align-items: center;
+											justify-content: center;
+											text-align: center;
+											color: cornflowerblue;
+
+										">
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Facebook</span>
+														<i class="bi bi-facebook"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Twitter</span>
+														<i class="bi bi-twitter"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Linkedin</span>
+														<i class="bi bi-linkedin"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Instagram</span>
+														<i class="bi bi-instagram"></i>                            </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="single-box text-center">
+										<div class="img-area"><img alt="" class="img-fluid move-animation" src="https://i.postimg.cc/tJCrp53r/5.png"></div>
+										<div class="info-area">
+											<h4>Person's Name</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p>
+											<ul class="footer-social-links list-reset"style="
+											align-items: center;
+											justify-content: center;
+											text-align: center;
+											color: cornflowerblue;
+
+										">
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Facebook</span>
+														<i class="bi bi-facebook"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Twitter</span>
+														<i class="bi bi-twitter"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Linkedin</span>
+														<i class="bi bi-linkedin"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<span class="screen-reader-text">Instagram</span>
+														<i class="bi bi-instagram"></i>                            </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+			</script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+			</script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+			</script>
+			<script>
+				   $('.team-slider').owlCarousel({
+					   loop: true,
+					   nav: false,
+					   autoplay: true,
+					   autoplayTimeout: 5000,
+					   smartSpeed: 450,
+					   margin: 20,
+					   responsive: {
+						   0: {
+							   items: 1
+						   },
+						   768: {
+							   items: 2
+						   },
+						   991: {
+							   items: 3
+						   },
+						   1200: {
+							   items: 3
+						   },
+						   1920: {
+							   items: 3
+						   }
+					   }
+				   });
+			</script>
+  <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+
+
+  <script src="{% static 'assets/js/scripts.js' %}" type="text/javascript"></script>
 
 
 									  <section class="cta section">
@@ -301,7 +587,7 @@
 													font-weight: unset;
 												"> first</span> to hear updates and news!</h3>
 												<div class="cta-cta">
-													<a class="button button-primary button-wide-mobile" href="#">Sign up</a>
+													<a class="button button-primary2 button-wide-mobile" href="#">Sign up</a>
 												</div>
 											</div>
 										</div>
@@ -311,13 +597,16 @@
 
         </main>
 
-        <footer class="site-footer">
+  <footer class="site-footer">
             <div class="container">
 
-                <div class="site-footer-inner">
+                <div class="site-footer-inner" style="
+				padding-top: 0px;
+				padding-bottom: 0px;
+			">
                     <div class="brand footer-brand">
 						<a href="#">
-							<img class="header-logo-image" src="{% static 'images/logo.png' %}" style="
+							<img class="header-logo-image" src="{% static 'Slogo.png' %}" style="
 							max-width: 250px;
 						" alt="Logo">
 						</a>
@@ -335,18 +624,20 @@
                         <li>
                             <a href="#">Support</a>
                         </li>
+						<li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
                     </ul>
                     <ul class="footer-links list-reset" style="
 					align-items: center;
 					justify-content: left;
 				">
-<div class="col-lg-3 col-md-6 mb-5">
-	<h4 class="text-uppercase text-white mb-4">Connect With Us</h4>
-	<p><i class="bi bi-geo-alt-fill"></i> &nbsp; 275, Herbert Macaulay way,
-		Yaba Lagos.
-		27/29J Line,
-		Ewet Housing Estate,
-		Uyo, Akwa Ibom.
+<div class="col-lg-3 col-md-6 mb-5"style="
+width: 31%;
+">
+	<h4 class="text-uppercase text-white mb-2 mt-4">Connect With Us</h4>
+	<p><i class="bi bi-geo-alt-fill"></i> &nbsp; 275, Herbert Macaulay way, Yaba Lagos.<br>
+		<i class="bi bi-geo-alt-fill"></i>27/29J Line, Ewet Housing Estate, Uyo, Akwa Ibom.
 	  </p>
 	<p><i class="bi bi-telephone-fill"></i> &nbsp;  +2349095177470</p>
 	<p><i class="bi bi-envelope"></i> &nbsp; info@shubz.or
@@ -357,34 +648,38 @@
                         <li>
                             <a href="#">
                                 <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0270D7"/>
-                                </svg>
+								<i class="bi bi-facebook"></i>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <span class="screen-reader-text">Twitter</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#0270D7"/>
-                                </svg>
+								<i class="bi bi-twitter"></i>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0270D7"/>
-                                </svg>
+                                <span class="screen-reader-text">Linkedin</span>
+								<i class="bi bi-linkedin"></i>
                             </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text">Instagram</span>
+								<i class="bi bi-instagram"></i>                            </a>
                         </li>
                     </ul>
 
 
-                    <div class="footer-copyright">Looking for video production services? SHUBZ offer best video production services, event filming services, film production, wedding videography & photography.</div>
+                    <div class="footer-copyright"><p>Looking for video production services? SHUBZ offer best video production services, event filming services, film production, wedding videography & photography.</p></div>
                 </div>
             </div>
         </footer>
+    </div>
+	<h6 style="
+    text-align: center;
+    font-size: smaller;
+">© 2022 SHUBZ Entertainment. All Rights Reserved	</h6>
     </div>
 
     <script src="{% static 'dist/js/main.min.js'%} "></script>
