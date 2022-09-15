@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import django_heroku
 from pathlib import Path
 import os
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -27,7 +28,6 @@ SECRET_KEY = ')c2osf0!o=!#r)@)f$ccv=r=1qw5@n*m5p!-5qct9(%p+3jwqz'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'shubz.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'audio-master/build')],
+        'DIRS': [os.path.join(BASE_DIR, 'audio-master/build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,7 +70,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'shubz.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
@@ -119,7 +118,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
@@ -133,14 +131,15 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 STATIC_ROOT = ''
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-# os.path.join(BASE_DIR,'intropage/static'),
-
-os.path.join(BASE_DIR,'audio-master/build/static')
+    # os.path.join(BASE_DIR,'intropage/static'),
+    os.path.join(BASE_DIR, 'audio-master/build/static')
 ]
+#
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'static/media/')
+# MEDIA_URL = '/media/'
 django_heroku.settings(locals())
