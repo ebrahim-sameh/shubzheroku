@@ -19,6 +19,6 @@ from . import views
 urlpatterns = [
     path('', views.mainpage, name='home' ),
     path('studio', views.audio, name='audio'),
-    path('scrape/', views.scrape, name='scrape')
+    # path('scrape/', views.scrape, name='scrape')
 
 ]
