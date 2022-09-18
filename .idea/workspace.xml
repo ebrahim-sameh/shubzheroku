@@ -3,12 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="27ce0ec7-6817-4c0b-8f46-9f96f700a658" name="Changes" comment="changing django respect of the order of apps in settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shubz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shubz/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intropage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/intropage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intropage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/intropage/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/Blu-Ray/Desktop/shubzheroku/intropage/static",
@@ -107,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663255859608</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changing django respect of the order of apps in settings">
+      <created>1663257009000</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663257009000</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
