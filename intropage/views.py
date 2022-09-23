@@ -1,8 +1,8 @@
-import json
+# import json
 
 from django.shortcuts import render, HttpResponse
-import requests
-from django.views.decorators.csrf import csrf_exempt
+# import requests
+# from django.views.decorators.csrf import csrf_exempt
 
 
 # Create your views here.
