@@ -28,15 +28,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Blu-Ray/Desktop/shubzheroku/intropage/static&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Blu-Ray/Downloads/SuiteCRM-8.1.3",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Blu-Ray\Desktop\shubzheroku\intropage\static" />
@@ -57,111 +57,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661526281078</updated>
-    </task>
-    <task id="LOCAL-00001" summary="stngs">
-      <created>1661526725657</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1661526725657</updated>
-    </task>
-    <task id="LOCAL-00002" summary="stngs">
-      <created>1661526896289</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1661526896289</updated>
-    </task>
-    <task id="LOCAL-00003" summary="stngs">
-      <created>1661527076257</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1661527076257</updated>
-    </task>
-    <task id="LOCAL-00004" summary="stngs">
-      <created>1661527103637</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1661527103637</updated>
-    </task>
-    <task id="LOCAL-00005" summary="audio and photography studios added">
-      <created>1663254409770</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1663254409770</updated>
-    </task>
-    <task id="LOCAL-00006" summary="audio and photography studios added">
-      <created>1663254778591</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1663254778591</updated>
-    </task>
-    <task id="LOCAL-00007" summary="audio and photography studios added">
-      <created>1663255484055</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1663255484055</updated>
-    </task>
-    <task id="LOCAL-00008" summary="changing django respect of the order of apps in settings">
-      <created>1663255859608</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1663255859608</updated>
-    </task>
-    <task id="LOCAL-00009" summary="changing django respect of the order of apps in settings">
-      <created>1663257009000</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1663257009000</updated>
-    </task>
-    <task id="LOCAL-00010" summary="changing django respect of the order of apps in settings">
-      <created>1663465549192</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1663465549192</updated>
-    </task>
-    <task id="LOCAL-00011" summary="changing django respect of the order of apps in settings">
-      <created>1663725543622</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1663725543622</updated>
-    </task>
-    <task id="LOCAL-00012" summary="changing django respect of the order of apps in settings">
-      <created>1663725599585</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1663725599585</updated>
-    </task>
-    <task id="LOCAL-00013" summary="changing django respect of the order of apps in settings">
-      <created>1663725609725</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1663725609725</updated>
-    </task>
-    <task id="LOCAL-00014" summary="changing django respect of the order of apps in settings">
-      <created>1663730242861</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1663730242861</updated>
-    </task>
-    <task id="LOCAL-00015" summary="changing django respect of the order of apps in settings">
-      <created>1663730264102</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1663730264102</updated>
     </task>
     <task id="LOCAL-00016" summary="changing django respect of the order of apps in settings">
       <created>1663730281278</created>
@@ -324,7 +219,189 @@
       <option name="project" value="LOCAL" />
       <updated>1663732137260</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="changing django respect of the order of apps in settings">
+      <created>1663732186033</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732186033</updated>
+    </task>
+    <task id="LOCAL-00040" summary="changing django respect of the order of apps in settings">
+      <created>1663732195951</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732195951</updated>
+    </task>
+    <task id="LOCAL-00041" summary="changing django respect of the order of apps in settings">
+      <created>1663732204729</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732204729</updated>
+    </task>
+    <task id="LOCAL-00042" summary="changing django respect of the order of apps in settings">
+      <created>1663732208371</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732208371</updated>
+    </task>
+    <task id="LOCAL-00043" summary="changing django respect of the order of apps in settings">
+      <created>1663732210480</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732210480</updated>
+    </task>
+    <task id="LOCAL-00044" summary="changing django respect of the order of apps in settings">
+      <created>1663732240045</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732240045</updated>
+    </task>
+    <task id="LOCAL-00045" summary="changing django respect of the order of apps in settings">
+      <created>1663732242615</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732242615</updated>
+    </task>
+    <task id="LOCAL-00046" summary="changing django respect of the order of apps in settings">
+      <created>1663732262044</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732262044</updated>
+    </task>
+    <task id="LOCAL-00047" summary="changing django respect of the order of apps in settings">
+      <created>1663732266091</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732266091</updated>
+    </task>
+    <task id="LOCAL-00048" summary="changing django respect of the order of apps in settings">
+      <created>1663732292761</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732292761</updated>
+    </task>
+    <task id="LOCAL-00049" summary="changing django respect of the order of apps in settings">
+      <created>1663732294930</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732294930</updated>
+    </task>
+    <task id="LOCAL-00050" summary="changing django respect of the order of apps in settings">
+      <created>1663732297321</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732297322</updated>
+    </task>
+    <task id="LOCAL-00051" summary="changing django respect of the order of apps in settings">
+      <created>1663732301846</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732301846</updated>
+    </task>
+    <task id="LOCAL-00052" summary="changing django respect of the order of apps in settings">
+      <created>1663732304531</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732304531</updated>
+    </task>
+    <task id="LOCAL-00053" summary="changing django respect of the order of apps in settings">
+      <created>1663732384811</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732384811</updated>
+    </task>
+    <task id="LOCAL-00054" summary="changing django respect of the order of apps in settings">
+      <created>1663732386956</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732386956</updated>
+    </task>
+    <task id="LOCAL-00055" summary="changing django respect of the order of apps in settings">
+      <created>1663732403182</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732403182</updated>
+    </task>
+    <task id="LOCAL-00056" summary="changing django respect of the order of apps in settings">
+      <created>1663732407642</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732407642</updated>
+    </task>
+    <task id="LOCAL-00057" summary="changing django respect of the order of apps in settings">
+      <created>1663732410828</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732410828</updated>
+    </task>
+    <task id="LOCAL-00058" summary="changing django respect of the order of apps in settings">
+      <created>1663732414638</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732414638</updated>
+    </task>
+    <task id="LOCAL-00059" summary="changing django respect of the order of apps in settings">
+      <created>1663732420100</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732420100</updated>
+    </task>
+    <task id="LOCAL-00060" summary="changing django respect of the order of apps in settings">
+      <created>1663732423053</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732423053</updated>
+    </task>
+    <task id="LOCAL-00061" summary="changing django respect of the order of apps in settings">
+      <created>1663732429744</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732429744</updated>
+    </task>
+    <task id="LOCAL-00062" summary="changing django respect of the order of apps in settings">
+      <created>1663732431923</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732431923</updated>
+    </task>
+    <task id="LOCAL-00063" summary="changing django respect of the order of apps in settings">
+      <created>1663732433994</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732433994</updated>
+    </task>
+    <task id="LOCAL-00064" summary="changing django respect of the order of apps in settings">
+      <created>1663732436456</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1663732436456</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
